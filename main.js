@@ -107,37 +107,20 @@ $(function() {
   }
 
   // **Slide:** **Avatar**  
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
-	
-	
   // Avatar slide in which the participant is asked to select an avatar
    
   function init_avatar() {
   	$('#avatar').show();
 
-    var avatars = window.settings.numberofavatars;    
-  	for(var i=0; i<avatars; i++) 
+    var foo = [];
+    for (var i = 0; i < window.settings.numberofavatars; i++) {
+      foo.push(i);
+    } 
+    var sfoo = shuffle(foo);
+  	for(var i in sfoo) 
   	{ 
-  		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
+  		$('.avatars').append('<img id="avatar_' + foo[i] + '" src="avatars/avatar_' + i + '.png" class="avatar" />');
   	} 
-	shuffle('.avatars');
   	$('.avatar').on('click', function() {
   		$('.avatar').removeClass('selected');
   		$(this).addClass('selected');
@@ -153,7 +136,6 @@ function shuffle(array) {
     			alertify.log("Please select an avatar","error");
     		}
     	});
-
   }
 
 
