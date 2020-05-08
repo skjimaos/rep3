@@ -115,8 +115,13 @@ $(function() {
     var foo = [];
     for (var i = 0; i < window.settings.numberofavatars; i++) {
       foo.push(i);
-    } 
-  	for(var i in foo) 
+    } ;
+	var sfoo = foo
+		.map((a) => ({sort: Math.random(), value: a}))
+		.sort((a, b) => a.sort - b.sort)
+		.map((a) => a.value);
+	  
+  	for(var i in sfoo) 
   	{ 
   		$('.avatars').append('<img id="avatar_' + foo[i] + '" src="avatars/avatar_' + i + '.png" class="avatar" />');
   	} 
