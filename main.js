@@ -111,12 +111,12 @@ $(function() {
    
   function init_avatar() {
   	$('#avatar').show();
-	  $('#avarae').shuffle();
 
     var avatars = window.settings.numberofavatars;    
   	for(var i=0; i<avatars; i++) 
   	{ 
   		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
+		$('#avatars').shuffle();
   	} 
 
   	$('.avatar').on('click', function() {
