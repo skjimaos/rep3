@@ -123,7 +123,7 @@ $(function() {
 	  
   	for(var i in sfoo) 
   	{ 
-  		$('.avatars').append('<img id="avatar_' + sfoo[i] + '" src="avatars/avatar_' + i + '.png" class="avatar" />');
+  		$('.avatars').append('<img id="avatar_' + i + '" src="avatars/avatar_' + sfoo[i] + '.png" class="avatar" />');
   	} 
   	$('.avatar').on('click', function() {
   		$('.avatar').removeClass('selected');
