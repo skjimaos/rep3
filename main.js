@@ -111,6 +111,7 @@ $(function() {
    
   function init_avatar() {
   	$('#avatar').show();
+	  $('#avarae').shuffle();
 
     var avatars = window.settings.numberofavatars;    
   	for(var i=0; i<avatars; i++) 
