@@ -106,7 +106,27 @@ $(function() {
   	});
   }
 
-  // **Slide:** **Avatar**       
+  // **Slide:** **Avatar**  
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+	
+	
   // Avatar slide in which the participant is asked to select an avatar
    
   function init_avatar() {
@@ -116,9 +136,8 @@ $(function() {
   	for(var i=0; i<avatars; i++) 
   	{ 
   		$('.avatars').append('<img id="avatar_' + i+ '" src="avatars/avatar_' + i + '.png" class="avatar" />');
-		$('#avatars').shuffle();
   	} 
-
+	shuffle('.avatars');
   	$('.avatar').on('click', function() {
   		$('.avatar').removeClass('selected');
   		$(this).addClass('selected');
