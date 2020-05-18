@@ -28,7 +28,7 @@ $(function() {
 	
 	// **Tasklength**     
     // Length of the group introduction task in milliseconds. Can be changed to any number (in ms). Default: 180000 (3min) 
-    settings.tasklength = 10; 
+    settings.tasklength = 60000; 
 
 	
 	// **Number** **of** **"likes"**    
