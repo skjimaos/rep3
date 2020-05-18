@@ -133,7 +133,7 @@ $(function() {
     	$('#submit_avatar').on('click',function() {
     		if($('.selected').length == 1) {
   			$('#avatar').hide();
-  			window.avatar = $('.selected').attr('id');
+  			window.avatar = $('.selected').attr('avatar_' + sfoo[i]);
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
