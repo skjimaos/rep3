@@ -123,7 +123,7 @@ $(function() {
 	  
   	for(var i in sfoo) 
   	{ 
-  		$('.avatars').append('<img id="avatar_' + i + '" src="avatars/avatar_' + sfoo[i] + '.png" class="avatar" />');
+  		$('.avatars').append('<img id="avatar_' + sfoo[i] + '" src="avatars/avatar_' + sfoo[i] + '.png" class="avatar" />');
   	} 
   	$('.avatar').on('click', function() {
   		$('.avatar').removeClass('selected');
@@ -133,7 +133,7 @@ $(function() {
     	$('#submit_avatar').on('click',function() {
     		if($('.selected').length == 1) {
   			$('#avatar').hide();
-  			window.avatar = $('.selected').attr('avatar_' + sfoo[i]);
+  			window.avatar = $('.selected').attr('id');
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
