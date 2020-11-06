@@ -53,20 +53,18 @@ If you don't have experience with programming, it is important that you alter on
 You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
 
 */ 
---> 
-  <h3>Herzlich willkommen zu <i>Studybook</i>, einer Online-Umgebung extra für Forschungszwecke! </h3>
+--> <h3>Welcome to <i>Studybook</i>, a specifically for this research designed online environment! </h3>
 
-  Zuerst werde alle Teilnehmer gebeten sich einen Nicknamen und einen Avatar auszusuchen <br>
-  und anschliessend eine kurze Beschreibung über sich selbst zu schreiben.  
+  First, all participants will be asked to select a nickname as well as a personal avatar  <br>
+  and write a short description about themselves. 
   <br><br>
-  Dannach, verbringen Sie 3 Minuten mit anderen Personen. <br>
-  Während dieser Zeit, haben Sie Zeit die Beschreibungen der anderen Personen zu lesen und auf diese zu reagieren.
+ Afterwards, you will spend 3 minutes with the other people. <br>
+
+ During this time, you will be able to read and react to each-other's brief descriptions.
   <br><br>
-
-
   
  <br><br>
-  <button type="submit" id="submit_intro">Weiter</button>
+  <button type="submit" id="submit_intro">Continue</button>
 </div>
 
 
@@ -81,12 +79,11 @@ You can edit the instructions text for entering usernames below.
 
 */ 
 -->
-
-  <h3>Bitte geben Sie Ihrem Namen ein</h3>
-  Sie können Ihren Vornamen, Ihre Initialen aber auch einen Nickname benutzen <br><br>
+	<h3>Please enter your name</h3>
+	Could be your first name, nickname, or initials<br><br>
 	
 	<input type="text" id="username"  autocomplete="off" /><br>	<br>
-	<button type="submit"  id="submit_username">Bestätigen</button>
+	<button type="submit"  id="submit_username">Submit</button>
 </div>
 
 
@@ -100,12 +97,11 @@ You can edit the instructions text for entering usernames below.
 You can edit the instructions text. The text "Your choice of avatar will not be recorded or analyzed" depends on whether you record the choice of avatar.
 
 */ 
--->	<h3>Bitte wählen Sie einen Avatar</h3>
-  Der Avatar repräsentiert Sie in der Online-Umgebung. Es gibt jedoch keine Verbindung zwischen dem Avatar und Ihren Antworten. <br>Die Wahl des Avatars wird nicht erfasst oder analysiert.
+-->	<h3>Please select an avatar</h3>
+	This avatar will represent you in the online environment, but will not be linked to any of your responses.  <br>Your choice of avatar will not be recorded or analyzed.
 	<br><br>
-
 	<div class="avatars"></div>
-	<br><button type="submit"  id="submit_avatar">Bestätigen</button>
+	<br><button type="submit"  id="submit_avatar">Submit</button>
 	<br><br>
 </div>	
 
@@ -119,13 +115,13 @@ You can edit the instructions text. The text "Your choice of avatar will not be 
 You can edit the instructions text. 
 
 */ 
--->	<h3>Bitte stellen Sie sich vor</h3>
-  Bitte schreiben Sie einen kurzen Abschnitt, indem Sie sich selbst vorstellen. <br>
-  Schreiben Sie etwas, was Sie gerne anderen über sich erzählen würden.
-  <br><br>
+-->	<h3>Please introduce yourself </h3>
+	Please write a paragraph in which you introduce yourself to the others. <br>
+	Write something you would like to tell about yourself - anything you want to share.
+	<br><br>	
 	<textarea id="description" autocomplete="off" /></textarea><br>
-	<span id="count">Zeichen übrig: 400</span><br><br>
-	<button type="submit" id="submit_text">Bestätigen</button>
+	<span id="count">Characters left: 400</span><br><br>
+	<button type="submit" id="submit_text">Submit</button>
 </div>	
 
 
@@ -139,31 +135,31 @@ You can edit the instructions text.
 You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
 
 */ 
--->  <h3>Treffen Sie die die anderen Leute</h3>
-  Sobald die Verbindung aufgebaut wurde, werden Sie die Beschreibung der anderen Personen sehen. <br>
-  Sie können diese lesen und darauf reagieren, indem Sie auf den "Gefällt-mir" Knopf drücken (ähnlich wie in Facebook).<br>
-  Bitte versuchen Sie sich einen Eindruck über die anderen zu verschaffen, auch wenn Ihre Möglichkeiten miteinander zu <br>
-  innteragieren begrenzt sind. Versuchen Sie sich die Leute im realen Leben vorzustellen. Wie könnten sie aussehen, wie <br>klingt ihre Stimme, wie sind sie, würden Sie zusammen auskommen? <br>
-
-
-  <br><br>Das Treffen dauert 3 Minuten und es ist sehr wichtig für die Studie. Daher versuchen Sie bitte während den 3 <br>Minuten aufmerksam zu sein. Bitte verlassen Sie die Seite nicht und erledigen Sie nebenher keine anderen Aufgaben. <br>
-  Im nachfolgenden Teil der Studie können zudem Fragen über die anderen Personen folgen.<br>
-  <br><br><b>Wenn Sie die Instruktionen verstanden haben, können Sie mit Anmelden fortfahren.</b><br>
+-->  <h3>Meeting the others</h3>
+  Soon after connecting, you should be able to see the other people's descriptions. <br>
+  You can read and react to the short introduction they wrote about themselves, by <br>
+  clicking a "like" button, similar to the "like" button on Facebook. <br>
   <br>
-  <button type="submit"  id="submit_fb_intro">Anmelden</button>
+  Even though your interaction is minimal, please try to form an impression of the <br>
+  people in the group. Try to imagine them in real life - how they might look <br>
+  or sound, what kind of people they are, how you would get along with them.
+  <br><br>The task will last 3 minutes and is very important to the study, so please be attentive,
+  <br>without switching pages, or doing unrelated tasks. Questions about the other people <br>might follow.
+  <br><br><b>If these instructions are clear, you can proceed to log in.</b><br>
+  <br>
+  <button type="submit"  id="submit_fb_intro">Log in</button>
 </div>
 
 
 
 <div id="fb_login" style="display:none;" class="instr">
-  <h3>Verbindung wird hergestellt</h3>
-  Bitte warten Sie während Sie mit den anderen Personen in der Online-Umgebung verbunden werden.<br><br>
-
+  <h3>Establishing connection</h3>
+  Please wait while you are being connected to the other participants in the online environment.<br><br>
   <img class="load" src='ajax-loader.gif' id="loader">
   <div id="msg_all_done" style="display:none;">
   <br>
-  	<b>Alle Personen sind nun verbunden. Sie können nun auf Weiter klicken.</b><br><br>
-  	<button type="submit"  id="submit_fb_login">Weiter</button>
+  	<b>All participants are now connected and you are ready to proceed.</b><br><br>
+  	<button type="submit"  id="submit_fb_login">Continue</button>
   </div>
 </div>
 
@@ -178,9 +174,9 @@ You can edit the instructions text.
 */ 
 -->
 <div id="task" style="display:none;">
-	<div id="countdown"><span class="secs" style="display: none;"></span>Sie können auf "Gefällt-mir" klicken, wenn Ihnen die Beschreibung von jemandem gefällt.<br><br>Zeit übrig:<br><span id="timer" class="cntr label label-info"></span>
+	<div id="countdown"><span class="secs" style="display: none;"></span>You can click "Like" if you have enjoyed somebody's description<br><br>time left:<br><span id="timer" class="cntr label label-info"></span>
 	<br>
-	<button type="submit" id='final-continue' style="display:none;">Weiter</button>	
+	<button type="submit" id='final-continue' style="display:none;">Continue</button>	
 	</div>
 </div>
 
