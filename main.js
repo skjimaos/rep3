@@ -86,12 +86,12 @@ $(function() {
 
   		if(uname == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Bitte geben Sie einen Namen ein.';
   			uname = "undefined";
   		}
   		if(not_alphanumeric(uname)) {
   			error = 1;
-  			errormsg = 'Please only letters (and no spaces)';
+  			errormsg = 'Bitte geben Sie nur Buchstaben ein (und keine Abstände).';
   		}  		
 
   		if(error == 0) {
@@ -137,7 +137,7 @@ $(function() {
   			window.avatarexport = /avatar_([^\s]+)/.exec(window.avatar)[1];
     			init_text();  			
     		} else {
-    			alertify.log("Please select an avatar","error");
+    			alertify.log("Bitte wählen Sie einen Avatar.","error");
     		}
     	});
   }
@@ -156,17 +156,17 @@ $(function() {
   		var error = 0;
   		if($('#description').val() == "") {
   			error = 1;
-  			errormsg = 'Please enter text';
+  			errormsg = 'Bitte geben Sie einen Text ein.';
   		}
   		if($('#description').val() !== "" && $('#description').val().length < 140) {
 		
   			error = 1;
-  			errormsg = 'Please write a bit more';
+  			errormsg = 'Bitte schreiben Sie ein bisschen mehr.';
 			}
   		if($('#description').val().length > 401) {
   		
   			error = 1;
-  			errormsg = 'Please enter less text';
+  			errormsg = 'Bitte geben Sie weniger Text ein.';
   		}  		
   		if(error == 0) {
   			$('#text').hide();
@@ -271,7 +271,7 @@ $(function() {
   		{ 
   			times[i] = +times[i]; 
   			
-  			themsg = usernames[i] + " liked your post";
+  			themsg = usernames[i] + " gefällt deinen Beitrag";
 
   			setTimeout(function(themsg) {
   				that.text(parseInt(that.text()) + 1);
