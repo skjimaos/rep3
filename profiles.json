@@ -12,7 +12,7 @@ window.others = {
       {
         "avatar": "avatars/others/sarah.png",
         "username": "Sarah",
-        "text": "Über-mich: Ich bin Sarah, verheiratet, und Mutter von zwei wundervollen Kindern. Meine Karriere verlief insgesamt etwas ungewöhnlich. Ich startete meine Karriere als Historikerin, wechselte dann aber in eine komplett andere Disziplin: Jugendarbeit. Dort versuche ich junge Menschen mit Beeinträchtigungen dabei zu helfen eine Arbeit zu finden. Meine Hobbies sind singen, lesen und Volleyball spielen.",
+        "text": "Über-mich: Ich bin Sarah, verheiratet, und Mutter von zwei wundervollen Kindern. Meine Karriere verlief insgesamt etwas ungewöhnlich. Ich startete meine Karriere als Historikerin, wechselte dann aber in eine komplett andere Disziplin: Jugendarbeit. Dort versuche ich jungen Menschen mit Beeinträchtigungen dabei zu helfen eine Arbeit zu finden. Meine Hobbies sind singen, lesen und Volleyball spielen.",
         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
       },
       {
@@ -30,7 +30,7 @@ window.others = {
       {
         "avatar": "avatars/others/nicola.png",
         "username": "Nicola",
-        "text": "Mein Name ist Nicola. Ich möchte euch von meinem Hobby erzählen. Ich klettere seit ich 12 Jahre alt bin (bald werde ich 20). Normalerweise verbringe ich etwa 3 Stunden pro Tag mit Klettern, in den Ferien und an Wochenenden mehr. Klettern wird nie langweilig, es gibt immer neue Routen und je nach Wetter fühlt es sich komplett unterschiedlich an.",
+        "text": "Mein Name ist Nicola. Ich möchte euch von meinem Hobby erzählen. Ich klettere seit ich 12 Jahre alt bin (bald werde ich 20). Normalerweise verbringe ich etwa 3 Stunden pro Tag mit klettern, in den Ferien und an Wochenenden mehr. Klettern wird nie langweilig, es gibt immer neue Routen und je nach Wetter fühlt es sich komplett unterschiedlich an.",
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
@@ -48,7 +48,7 @@ window.others = {
           {
         "avatar": "avatars/others/ky.png",
         "username": "Ky",
-        "text": "Hey, guys. Ich be de Ky, 19 Joor alt und Koreaner. I läb sid minere Kindheit do dä in Schwyz. Ich be grundsätzlich en nätte, geduldige und offene Typ. I reis gärn und lern gärn neui Lüüt kenne. Mini Freizyt verbring ich mit Fitness, demit Kollege z träffe und neui Restaurants usprobiere.",
+        "text": "Hey guys. Ich be de Ky, 19 Joor alt und Koreaner. I läb sid minere Kindheit do dä in Schwyz. Ich be grundsätzlich en nätte, geduldige und offene Typ. I reis gärn und lern gärn neui Lüüt kenne. Mini Freizyt verbring ich mit Fitness, demit Kollege z träffe und neui Restaurants usprobiere.",
         "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
       },
       {
