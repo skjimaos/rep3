@@ -6,7 +6,7 @@ window.others = {
       {
         "avatar": "avatars/others/gregor.png",
         "username": "Gregor",
-        "text": "Ich bin 25 Jahre alt und komme aus Bern. Musik ist mein Leben. Ich studiere Musik und spiele auch selber in einer Band. Wir hatten auch schon ein paar kleinere Auftritte. Neben Musik lerne ich gerne Sprachen, zeichne und schreibe gerne.",
+        "text": "Ich bin 25 Jahre alt und komme aus Bern. Musik ist mein Leben. Ich studiere Musik und spiele in einer Band. Wir hatten auch schon ein paar kleinere Auftritte. Neben Musik lerne ich gerne Sprachen (momentan gerade spanisch) , zeichne und schreibe gerne.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
@@ -30,7 +30,7 @@ window.others = {
       {
         "avatar": "avatars/others/nicola.png",
         "username": "Nicola",
-        "text": "Klettern ist mein Leben. Ich klettere seit ich 12 Jahre alt bin (bald werde ich 20). Normalerweise verbringe ich etwa 3 Stunden pro Tag mit Klettern, in den Ferien und an Wochenenden mehr. Klettern wird nie langweilig, es gibt immer neue Routen und je nach Wetter fühlt es sich komplett unterschiedlich an.",
+        "text": "Mein Name ist Nicola. Ich möchte euch von meinem Hobby erzählen. Ich klettere seit ich 12 Jahre alt bin (bald werde ich 20). Normalerweise verbringe ich etwa 3 Stunden pro Tag mit Klettern, in den Ferien und an Wochenenden mehr. Klettern wird nie langweilig, es gibt immer neue Routen und je nach Wetter fühlt es sich komplett unterschiedlich an.",
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
@@ -48,7 +48,7 @@ window.others = {
           {
         "avatar": "avatars/others/ky.png",
         "username": "Ky",
-        "text": "Hey, guys. Ich be de Ky, 19 Joor alt und Koreaner. I läb sid minere Kindheit do in Schwyz. Ich be grundsätzlich nätte, geduldige und offene Typ. I reis gärn und lern gärn neui Lüüt kenne. Mini Freizyt verbring ich mit Fitness, demit Kollege z träffe und neui Restaurants usprobiere.",
+        "text": "Hey, guys. Ich be de Ky, 19 Joor alt und Koreaner. I läb sid minere Kindheit do dä in Schwyz. Ich be grundsätzlich en nätte, geduldige und offene Typ. I reis gärn und lern gärn neui Lüüt kenne. Mini Freizyt verbring ich mit Fitness, demit Kollege z träffe und neui Restaurants usprobiere.",
         "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
       },
       {
@@ -66,7 +66,7 @@ window.others = {
       {
         "avatar": "avatars/others/janette.png",
         "username": "Janette",
-        "text": "Hallo, mein Name ist Janette. Ich habe nachher noch ein Vorstellungsgespräch. Ich bin ein wenig nervös. Also sorry, wenn ich hier eher kurz schreibe. Aber ich hoffe euch geht es allen gut.",
+        "text": "Hallo, mein Name ist Janette. Ich habe nachher noch ein Vorstellungsgespräch und ich bin ein wenig nervös. Also sorry, wenn ich hier eher kurz schreibe. Aber ich hoffe euch geht es allen gut.",
         "likes": [10000, 50000] //6
       },
 
