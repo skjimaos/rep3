@@ -89,10 +89,7 @@ $(function() {
   			errormsg = 'Bitte geben Sie einen Namen ein.';
   			uname = "undefined";
   		}
-  		if(not_alphanumeric(uname)) {
-  			error = 1;
-  			errormsg = 'Bitte geben Sie nur Buchstaben ein (und keine Abstände).';
-  		}  		
+  			
 
   		if(error == 0) {
 			$('#name').hide();
@@ -148,7 +145,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	  $("#count").text("Zeichen übrig: " + (50 - $(this).val().length));
+  	  $("#count").text("Zeichen übrig: " + (400 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
@@ -158,7 +155,7 @@ $(function() {
   			error = 1;
   			errormsg = 'Bitte geben Sie einen Text ein.';
   		}
-  		if($('#description').val() !== "" && $('#description').val().length < 140) {
+  		if($('#description').val() !== "" && $('#description').val().length < 10) {
 		
   			error = 1;
   			errormsg = 'Bitte schreiben Sie ein bisschen mehr.';
