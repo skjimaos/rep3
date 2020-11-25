@@ -148,7 +148,7 @@ $(function() {
   	$('#text').show();
 
   	$("#description").keyup(function(){
-  	  $("#count").text("Zeichen übrig: " + (400 - $(this).val().length));
+  	  $("#count").text("Zeichen übrig: " + (50 - $(this).val().length));
   	});
 
   	$('#submit_text').on('click',function() {
