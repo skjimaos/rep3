@@ -46,8 +46,8 @@ $(function() {
 
 	// **Others' likes**     
 	// To keep the total distribution of "likes" constant across conditions, The "likes" received by one group member can be adjusted according to the participant's. By default, the other group member receives 9 "likes" in the participant-ostracism condition, 5 in the participant-inclusion condtion, and 1 in the participant-overinclusion condtion.
-	
-	settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000,160000]; // 9
+	settings.condition_1_adjusted_likes = []; 
+	//settings.condition_1_adjusted_likes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000,160000]; // 9
 	settings.condition_2_adjusted_likes = [12000, 14000,15000,35000,80000]; // 5
 	settings.condition_3_adjusted_likes = [12000, 9999999]; //1	
 	
@@ -300,7 +300,7 @@ $(function() {
 	  $('.btn-like').on('click', function() {
 		  $(this).prev().text(parseInt($(this).prev().text()) + 1);
       // Like buttons can only be clicked once
-		  $(this).attr("disabled", true);
+		  $(this).attr("disabled", false);
 	  });
 
     // Initalize Masonry plugin
