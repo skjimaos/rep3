@@ -155,7 +155,7 @@ $(function() {
   			error = 1;
   			errormsg = 'Bitte geben Sie einen Text ein.';
   		}
-  		if($('#description').val() !== "" && $('#description').val().length < 30) {
+  		if($('#description').val() !== "" && $('#description').val().length < 90) {
 		
   			error = 1;
   			errormsg = 'Bitte schreiben Sie ein bisschen mehr.';
