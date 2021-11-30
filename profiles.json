@@ -5,69 +5,34 @@ window.others = {
   "posts" : [
       {
         "avatar": "avatars/others/gregor.png",
-        "username": "Gregor",
-        "text": "Ich bin 25 Jahre alt und komme aus Bern. Musik ist mein Leben. Ich studiere Musik und spiele in einer Band. Wir hatten auch schon ein paar kleinere Auftritte. Neben Musik lerne ich gerne Sprachen (momentan gerade spanisch) , zeichne und schreibe gerne.",
+        "username": "Julia",
+        "text": "Hey, mein Name ist Julia und ich bin 21 Jahre alt. Meine Eltern haben ein Weingut, daher bin ich mit Wein aufgewachsen. Ich musste quasi ein Wein-Fan werden. Und das ist gut so, denn ich habe tatsächlich eine Vorliebe für Wein von meinen Eltern geerbt.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
         "avatar": "avatars/others/sarah.png",
-        "username": "Sarah",
-        "text": "Über-mich: Ich bin Sarah, verheiratet, und Mutter von zwei wundervollen Kindern. Meine Karriere verlief insgesamt etwas ungewöhnlich. Ich startete meine Karriere als Historikerin, wechselte dann aber in eine komplett andere Disziplin: Jugendarbeit. Dort versuche ich jungen Menschen mit Beeinträchtigungen dabei zu helfen eine Arbeit zu finden. Meine Hobbies sind singen, lesen und Volleyball spielen.",
+        "username": "Felix",
+        "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und wohne in der coolsten WG in Basel. Was uns so cool macht? Unsere legendären Wein-Parties! Zusammensitzen, es lustig haben und ein Glas Wein trinken, was will man mehr? Wein verbindet!",
         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
       },
       {
-        "avatar": "avatars/others/johannes.png",
-        "username": "Johannes",
-        "text": "Hallo zusammen, ich bin 57 Jahre alt, verheiratet und habe zwei Kinder. Ich arbeite seit über 30 Jahren als Informatiker. Hier möchte ich gerne anfügen, ich entspreche nicht dem Klischee. Ich habe keine langen ungewaschenen Haare, trage keine übergrossen Hemden und auch keine Brille mit dicken Gläsern.",
-		"likes": [20000, 21000] //2
-      },
-      {
         "avatar": "avatars/others/anca.png",
-        "username": "AncaD",
-        "text": "Ich studiere Computer Science und ich interessiere mich besonders für Natural Language Processing. Ich bin leidenschaftliche Teetrinkerin und Schokoladenesserin. Ausserdem bin ich gespannt, worum es in dieser Studie geht...",
+        "username": "Sarah",
+        "text": "Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag viel lieber Wein als Bier. Ich mag den Geschmack von Bier einfach nicht besondern. Wein hingegen hat so eine Vielfalt, da findet jeder das Richtige! Auch ist Wein viel gemütlicher und passt besser zu einem Abend mit Freunden.",
         "likes": [10000, 12000, 40000, 80000, 120000] //5
       },
       {
         "avatar": "avatars/others/nicola.png",
-        "username": "Nicola",
-        "text": "Mein Name ist Nicola. Ich möchte euch von meinem Hobby erzählen. Ich klettere seit ich 12 Jahre alt bin (bald werde ich 20). Normalerweise verbringe ich etwa 3 Stunden pro Tag mit klettern, in den Ferien und an Wochenenden mehr. Klettern wird nie langweilig, es gibt immer neue Routen und je nach Wetter fühlt es sich komplett unterschiedlich an.",
+        "username": "Max",
+        "text": "Mein Name ist Max und ich bin 22 Jahre alt. Ich arbeite als HiWi und studiere nebenbei Psychologie. Am liebsten trinke ich Wein zusammen mit Freunden gemütlich bei uns in der WG. Häufig veranstalten wir auch Themenabende, wo jeder dann aus dem passenden Land eine Flasche mitbringt.",
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
         "avatar": "avatars/others/nicole.png",
-        "username": "Nicole",
-        "text": "Mein Name ist Nicole und ich bin 49 Jahre alt. Ich habe einen Mann und zwei Söhne. Meine Familie und ich wohnten aus beruflichen Gründen schon in den verschiedensten Länder. Meine Söhne gehen beide auf die International School und ich gebe Sprachkurse in den Sprachen Deutsch und Englisch. Neben Reisen mag ich Gesellschaftsspiele, Puzzle und Theater.",
+        "username": "Nicola",
+        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Für mich gehört Wein schon fast zum Essen dazu. Am Abend, nach einem strengen Tag ein bisschen Wein gönnen und den Tag ausklingen lassen. Zudem finde ich Wein geschmacklich einfach besser.",
         "likes": [20000, 25000, 95000] //3
-      },
-      {
-        "avatar": "avatars/others/jessica.png",
-        "username": "Jessica",
-        "text": "Hejj zeme, i heiss Jessica. I lieb Shopping und mit Kollege use zgo. Bi eifach do zum ane paar Onlinestudie mitzmache. :)",
-        "likes": [12000, 38000] //1
-      },
-          {
-        "avatar": "avatars/others/ky.png",
-        "username": "Ky",
-        "text": "Hey guys. Ich be de Ky, 19 Joor alt und Koreaner. I läb sid minere Kindheit do dä in Schwyz. Ich be grundsätzlich en nätte, geduldige und offene Typ. I reis gärn und lern gärn neui Lüüt kenne. Mini Freizyt verbring ich mit Fitness, demit Kollege z träffe und neui Restaurants usprobiere.",
-        "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000] //7
-      },
-      {
-        "avatar": "avatars/others/rea.png",
-        "username": "Rea",
-        "text": "Hi zusammen, ich bin Andrea, aber alle nennen mich Rea. Meine Freunde sagen über mich ich sei ein Nerd. Und ich denke, das hat was. Ich studiere Physik und verbringe echt viel Zeit mit dem Studium.",
-        "likes": [12000, 40000, 120000] //3
-      },
-      {
-        "avatar": "avatars/others/mireille.png",
-        "username": "Mireille",
-        "text": "Ich studiere Veterinärmedizin. Mein Ziel ist es Tierärztin zu werden und später eine eigene Praxis zu haben, die auf Pferde spezialisiert ist. Ich bin gerne in der Natur, am liebsten auf meinem Pferd Jola. Neben Jola habe ich noch einen Hund und zwei Katzen.",
-        "likes": [13000, 50000, 80000, 88000, 120000] //5
-      },
-      {
-        "avatar": "avatars/others/janette.png",
-        "username": "Janette",
-        "text": "Hallo, mein Name ist Janette. Ich habe nachher noch ein Vorstellungsgespräch und ich bin ein wenig nervös. Also sorry, wenn ich hier eher kurz schreibe. Aber ich hoffe euch geht es allen gut.",
-        "likes": [10000, 50000] //6
+        
       },
 
     ]
