@@ -4,19 +4,19 @@
 window.others = {
   "posts" : [
       {
-        "avatar": "avatars/others/gregor.png",
+        "avatar": "avatars/others/anca.png",
         "username": "Julia",
         "text": "Hey, mein Name ist Julia und ich bin 21 Jahre alt. Meine Eltern haben ein Weingut, daher bin ich mit Wein aufgewachsen. Ich musste quasi ein Wein-Fan werden. Und das ist gut so, denn ich habe tatsächlich eine Vorliebe für Wein von meinen Eltern geerbt.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
-        "avatar": "avatars/others/sarah.png",
+        "avatar": "avatars/others/ky.png",
         "username": "Felix",
         "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und wohne in der coolsten WG in Basel. Was uns so cool macht? Unsere legendären Wein-Parties! Zusammensitzen, es lustig haben und ein Glas Wein trinken, was will man mehr? Wein verbindet!",
         "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000] //9
       },
       {
-        "avatar": "avatars/others/anca.png",
+        "avatar": "avatars/others/jessica.png",
         "username": "Sarah",
         "text": "Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag viel lieber Wein als Bier. Ich mag den Geschmack von Bier einfach nicht besondern. Wein hingegen hat so eine Vielfalt, da findet jeder das Richtige! Auch ist Wein viel gemütlicher und passt besser zu einem Abend mit Freunden.",
         "likes": [10000, 12000, 40000, 80000, 120000] //5
@@ -28,7 +28,7 @@ window.others = {
         "likes": [40000, 450000, 90000, 100000, 150000, 155000] //6
       },
     {
-        "avatar": "avatars/others/nicole.png",
+        "avatar": "avatars/others/.png",
         "username": "Nicola",
         "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Für mich gehört Wein schon fast zum Essen dazu. Am Abend, nach einem strengen Tag ein bisschen Wein gönnen und den Tag ausklingen lassen. Zudem finde ich Wein geschmacklich einfach besser.",
         "likes": [20000, 25000, 95000] //3
