@@ -237,9 +237,14 @@ $(function() {
 	  var tpl = $('#usertmp').html(),html = Mustache.to_html(tpl, users);
 	  $("#task").append(html);
 	  
-    // Add other boxes to slide    
+    // Add other boxes to slide
+    if(condition < 3)  {
 	  var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
 	  $("#task").append(html);
+  } else {
+    var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, othersA);
+    $("#task").append(html);
+  }
  
     // Randomize order of other players boxes
     function reorder() {

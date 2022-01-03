@@ -183,7 +183,7 @@ You can edit the instructions text.
 	</div>
 </div>
 
-{% if {{condition}} < 4%}
+
 <script type="template/text" id="usertmp">
   {{#posts}}
     
@@ -208,34 +208,6 @@ You can edit the instructions text.
 
   {{/posts}}  
 </script>
-{% else %}
-<script type="template/text" id="usertmp">
-  {{#posts1}}
-    
-    <div class="entry">
-    <div class="tophalf">
-
-      <img src="{{avatar}}" class="avatar">
-      <h3>{{username}}</h3>
-
-      <div class="main">
-        <p>{{text}}</p>
-      </div>
-
-      <br style="clear:both;">
-
-    </div>  
-
-    <div class="bottomhalf">
-      Gefällt mir <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span>
-    </div>
-    </div>
-
-  {{/posts}}  
-</script>
-{% endif %}
-
-
 
 <script type="template/text" id="otherstmp">
   {{#posts}}
@@ -261,6 +233,7 @@ You can edit the instructions text.
     </div>
   {{/posts}}  
 </script>
+
 
 
 </body>
