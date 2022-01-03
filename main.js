@@ -36,7 +36,7 @@ $(function() {
 	// In cases with only 1 "like," a second "like" is added with time point 9999999. This "like" is added for programming purposes and is never executed, as it is outside the task time
 
     // In condition 1, the participant will receive 1 like at the following timepoint (in ms). Default: [12000, 9999999]
-  	//  settings.condition_1_likes = [900000000000]; 
+  //  settings.condition_1_likes = [900000000000]; 
 
     // In condition 2, user will receive 6 likes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
     settings.condition_2_likes = [18000, 25000, 29000, 35000, 50000, 68000, 72000 ];  
@@ -334,13 +334,11 @@ $(function() {
   // Get URL parameters to set condition number and participant number
   function get_params() {
     // condition number must be 1, 2, or 3
-    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 6) {
+    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 4) {
       window.condition = parseInt(window.QueryString.c);
     } else {
       window.condition = 1; // condition defaults to 1
     }
-
-
     // participant number must be numeric
     if(window.QueryString.p !== undefined && !isNaN(parseInt(window.QueryString.p))) {
       window.participant = parseInt(window.QueryString.p);
@@ -378,14 +376,6 @@ $(function() {
 			window.others.posts[1].likes = settings.condition_2_adjusted_likes;
 			break;
 		case 3:
-			window.settings.condition_likes = settings.condition_3_likes;
-			window.others.posts[1].likes = settings.condition_3_adjusted_likes;
-			break;
-		case 4:
-			window.settings.condition_likes = settings.condition_2_likes;
-			window.others.posts[1].likes = settings.condition_2_adjusted_likes;
-			break;
-		case 5:
 			window.settings.condition_likes = settings.condition_3_likes;
 			window.others.posts[1].likes = settings.condition_3_adjusted_likes;
 			break;
