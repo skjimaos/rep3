@@ -343,7 +343,7 @@ $(function() {
   // Get URL parameters to set condition number and participant number
   function get_params() {
     // condition number must be 1, 2, or 3
-    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 6) {
+    if(window.QueryString.c !== undefined && !isNaN(parseInt(window.QueryString.c)) && parseInt(window.QueryString.c) > 0 && parseInt(window.QueryString.c) < 4) {
       window.condition = parseInt(window.QueryString.c);
     } else {
       window.condition = 1; // condition defaults to 1
@@ -389,14 +389,6 @@ $(function() {
 		case 3:
 			window.settings.condition_likes = settings.condition_3_likes;
 			window.others.posts[1].likes = settings.condition_3_adjusted_likes;
-			break;
-		case 4:
-			window.settings.condition_likes = settings.condition_4_likes;
-			window.others.posts[1].likes = settings.condition_5_adjusted_likes;
-			break;
-		case 5:
-			window.settings.condition_likes = settings.condition_5_likes;
-			window.others.posts[1].likes = settings.condition_5_adjusted_likes;
 			break;
 	}	
 	  
