@@ -19,3 +19,6 @@ Wolf, W., Levordashka, A., Ruff, J. R., Kraaijeveld, S., Lueckmann, J.-M., & Wil
 Link to the exclusion condtion: https://lkatharina.github.io/rep1//index.html?c=1&p=9999
 
 Link to the inclusion condtion: https://lkatharina.github.io/rep1//index.html?c=2&p=9999
+
+ https://lkatharina.github.io/rep1//index.html?c=3&p=9999
+ https://lkatharina.github.io/rep1//index.html?c=4&p=9999
