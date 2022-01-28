@@ -17,5 +17,3 @@ Link to the inclusion condtion with instruction 1: https://lkatharina.github.io/
 Link to the exclusion condtion with instruction 2: https://lkatharina.github.io//rep1//index.html?c=5&p=999
 
 Link to the inclusion condtion with instruction 2: https://lkatharina.github.io//rep1//index.html?c=4&p=999
-
-http://lkatharina.github.io//rep1//index.html?c=5&p=999
