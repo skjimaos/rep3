@@ -10,10 +10,10 @@ Wolf, W., Levordashka, A., Ruff, J. R., Kraaijeveld, S., Lueckmann, J.-M., & Wil
 Conditions
 ======================
 
-Link to the exclusion condtion with instruction 1: https://lkatharina.github.io//rep1//index.html?c=1&p=999
+Link to the exclusion condtion with instruction 1: https://lkatharina.github.io//Ost-Social//index.html?c=1&p=999
 
-Link to the inclusion condtion with instruction 1: https://lkatharina.github.io//rep1//index.html?c=2&p=999
+Link to the inclusion condtion with instruction 1: https://lkatharina.github.io//Ost-Social//index.html?c=2&p=999
 
-Link to the exclusion condtion with instruction 2: https://lkatharina.github.io//rep1//index.html?c=5&p=999
+Link to the exclusion condtion with instruction 2: https://lkatharina.github.io//Ost-Social//index.html?c=5&p=999
 
-Link to the inclusion condtion with instruction 2: https://lkatharina.github.io//rep1//index.html?c=4&p=999
+Link to the inclusion condtion with instruction 2: https://lkatharina.github.io//Ost-Social//index.html?c=4&p=999
