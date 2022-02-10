@@ -30,7 +30,7 @@ window.others = {
     {
         "avatar": "avatars/others/dan.png",
         "username": "Nicola",
-        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Für mich gehört Wein schon fast zum Essen dazu. Am Abend, nach einem strengen Tag ein bisschen Wein gönnen und den Tag ausklingen lassen. Zudem finde ich Wein geschmacklich einfach besser.",
+        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Ich trinke weder Bier noch Wein regelmässig, da ich möglichst versuche ohne Alkohol durchs Lebens zu gehen. Aber geschmacklich finde ich Wein ein wenig besser.",
         "likes": [20000, 25000, 95000] //3
         
       },
