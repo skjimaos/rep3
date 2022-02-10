@@ -6,31 +6,31 @@ window.othersA = {
       {
         "avatar": "avatars/others/anca.png",
         "username": "Julia",
-        "text": "1 Hey, mein Name ist Julia und ich bin 21 Jahre alt. Meine Eltern haben eine Bierbrauerei, daher bin ich mit Bier aufgewachsen. Ich musste quasi ein Bier-Fan werden. Und das ist gut so, denn ich habe tatsächlich eine Vorliebe für Bier von meinen Eltern geerbt.",
+        "text": " Hey, mein Name ist Julia und ich bin 21 Jahre alt. Meine Eltern haben eine Bierbrauerei, daher bin ich mit Bier aufgewachsen. Ich musste quasi ein Bier-Fan werden. Und das ist gut so, denn ich habe tatsächlich eine Vorliebe für Bier von meinen Eltern geerbt.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
         "avatar": "avatars/others/ky.png",
         "username": "Felix",
-        "text": "1 Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und wohne in der coolsten WG in Basel. Was uns so cool macht? Unsere legendären Bierpong-Parties! Zusammensitzen, es lustig haben und ein Bierchen trinken, was will man mehr? Bier verbindet!",
+        "text": " Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und wohne in der coolsten WG in Basel. Was uns so cool macht? Unsere legendären Bierpong-Parties! Zusammensitzen, es lustig haben und ein Bierchen trinken, was will man mehr? Bier verbindet!",
         "likes": [12000, 14000,15000,35000] //9
       },
       {
         "avatar": "avatars/others/sarah.png",
         "username": "Sarah",
-        "text": "1 Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag viel lieber Bier als Wein. Ich mag den Geschmack von Wein einfach nicht besonders. Bier hingegen hat so eine Vielfalt, da findet jeder das Richtige! Auch ist Bier viel gemütlicher und passt besser zu einem Abend mit Freunden.",
+        "text": " Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag viel lieber Bier als Wein. Ich mag den Geschmack von Wein einfach nicht besonders. Bier hingegen hat so eine Vielfalt, da findet jeder das Richtige! Auch ist Bier viel gemütlicher und passt besser zu einem Abend mit Freunden.",
         "likes": [10000, 12000, 40000, 80000] //5
       },
       {
         "avatar": "avatars/others/jessica.png",
         "username": "Jessica",
-        "text": "1 Mein Name ist Jessica und ich bin 22 Jahre alt. Ich arbeite als HiWi und studiere nebenbei Psychologie. Am liebsten trinke ich Bier zusammen mit Freunden gemütlich bei uns in der WG. Häufig veranstalten wir auch Themenabende, wo jeder dann aus dem passenden Land eine Flasche mitbringt.",
+        "text": " Mein Name ist Jessica und ich bin 22 Jahre alt. Ich arbeite als HiWi und studiere nebenbei Psychologie. Am liebsten trinke ich Bier zusammen mit Freunden gemütlich bei uns in der WG. Häufig veranstalten wir auch Themenabende, wo jeder dann aus dem passenden Land eine Flasche mitbringt.",
         "likes": [40000, 450000, 90000, 100000] //6
       },
     {
         "avatar": "avatars/others/dan.png",
         "username": "Nicola",
-        "text": "1 Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Für mich gehört Bier schon fast zum Essen dazu. Am Abend, nach einem strengen Tag ein bisschen Bier gönnen und den Tag ausklingen lassen. Zudem finde ich Bier geschmacklich einfach besser.",
+        "text": " Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Ich trinke weder Bier noch Wein regelmässig, da ich möglichst versuche ohne Alkohol durchs Lebens zu gehen. Aber geschmacklich finde ich Bier ein wenig besser.",
         "likes": [20000, 25000, 95000] //3
         
       },
