@@ -6,31 +6,33 @@ window.others = {
       {
         "avatar": "avatars/others/anca.png",
         "username": "Julia",
-        "text": "Hey, mein Name ist Julia und ich bin 21 Jahre alt. Meine Eltern haben ein Weingut, daher bin ich mit Wein aufgewachsen. Ich musste quasi ein Wein-Fan werden. Und das ist gut so, denn ich habe tatsächlich eine Vorliebe für Wein von meinen Eltern geerbt.",
+        "text": "Hey, mein Name ist Julia und ich bin 24 Jahre alt. Ich bin seit meinem 2. Semester im Studiengremium. Ich bin sehr gerne kreativ mit Film und Foto, daher ist das Social Media Team der optimale Platz um mich zu entfalten.",
         "likes": [45000, 50000, 110000, 150000] //4
       },
       {
         "avatar": "avatars/others/ky.png",
         "username": "Felix",
-        "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und wohne in der coolsten WG in Basel. Was uns so cool macht? Unsere legendären Wein-Parties! Zusammensitzen, es lustig haben und ein Glas Wein trinken, was will man mehr? Wein verbindet!",
+        "text": "Hallo zusammen! Ich bin Felix, 25, Student der Wirtschaftswissenschaften und bin neu im Studiengremium. Da ich in einem grossen Wirtschaftsunternehmen arbeite kann ich gut Verbindungen schaffen, wenn wir Kampagnen mit grossen Firmen zusammen gestalten.",
         "likes": [12000, 14000,15000,35000] //9
       },
       {
         "avatar": "avatars/others/sarah.png",
         "username": "Sarah",
-        "text": "Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag viel lieber Wein als Bier. Ich mag den Geschmack von Bier einfach nicht besondern. Wein hingegen hat so eine Vielfalt, da findet jeder das Richtige! Auch ist Wein viel gemütlicher und passt besser zu einem Abend mit Freunden.",
+        "text": "Hey, ich bin Sarah, 19 und studiere Biologie. Ich mag das Gremium, weil ich wirklich etwas bewirken kann. Ich freue mich auf das nächste Projekt und die Diskussion um das neue Uni Logo.",
         "likes": [10000, 12000, 40000, 80000] //5
       },
       {
         "avatar": "avatars/others/jessica.png",
         "username": "Jessica",
-        "text": "Mein Name ist Jessica und ich bin 22 Jahre alt. Ich arbeite als HiWi und studiere nebenbei Psychologie. Am liebsten trinke ich Wein zusammen mit Freunden gemütlich bei uns in der WG. Häufig veranstalten wir auch Themenabende, wo jeder dann aus dem passenden Land eine Flasche mitbringt.",
+        "text": "Mein Name ist Max und ich bin 22 Jahre alt. Ich arbeite als HiWi und studiere nebenbei Psychologie. Mit Marketing und Werbung kann ich im Social Media Team meine Skills anwenden und finde es spannend zu sehen, wie die Projekte umgesetzt werden.", 
         "likes": [40000, 450000, 90000, 100000] //6
       },
     {
         "avatar": "avatars/others/dan.png",
         "username": "Nicola",
-        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus Österreich. Ich trinke weder Bier noch Wein regelmässig, da ich möglichst versuche ohne Alkohol durchs Lebens zu gehen. Aber geschmacklich finde ich Wein ein wenig besser.",
+        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus 
+Österreich. Ich studiere Sprachwissenschaften und habe bereits ein Studium an der Kunsthochschule absolviert. Ich mag die Kommunikation und die Kreativität in unserer Gruppe sehr.",  
+
         "likes": [20000, 25000, 95000] //3
         
       },
