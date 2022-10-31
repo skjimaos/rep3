@@ -30,7 +30,7 @@ window.othersA = {
     {
         "avatar": "avatars/others/dan.png",
         "username": "Nicola",
-        "text": "Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus 
+        "text": " Über mich: Ich bin Nicola, 29, studiere in Freiburg und Basel und komme ursprünglich aus 
 Österreich. Ich studiere Sprachwissenschaften und habe bereits ein Studium an der Kunsthochschule absolviert. Ich mag die Kommunikation und die Kreativität in unserer Gruppe sehr.",  
 
         "likes": [20000, 25000, 95000] //3
