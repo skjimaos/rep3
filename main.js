@@ -238,7 +238,7 @@ $(function() {
 	  $("#task").append(html);
 	  
     // Add other boxes to slide
-    if(condition < 4)  {
+    if(condition = 0)  {
 	  var tpl = $('#otherstmp').html(),html = Mustache.to_html(tpl, others);
 	  $("#task").append(html);
   } else {
